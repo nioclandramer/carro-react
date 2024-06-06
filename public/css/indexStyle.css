@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/VCLogo3.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    height: auto;
+}
+.title{
+    padding: 90px;
+    justify-content: center;
+}
+.boton{
+    width: 100px;
+    background-position-x: 400px;
+}
