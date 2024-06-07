@@ -23,11 +23,11 @@
                 <div id="input" class="col-md">
                     <div class="form-floating">
                         <label for="floatingInputGrid">FechaInicio</label>
-                        <input type="FechaI" class="form-control" id="input" placeholder="" value="">
+                        <input id="input" class="form-control" type="date"/>
                     </div>
                     <div class="form-floating">
                         <label for="floatingInputGrid">FechaFinal</label>
-                        <input type="FechaF" class="form-control" id="input" placeholder="" value="">
+                        <input id="input" class="form-control" type="date"/>
                     </div>
                 </div>
                 <div class="col-md">
@@ -41,9 +41,26 @@
                         </select>
                     </div>
                 </div>
+                <div>
+                    <button id="buscar" type="button" class="btn btn-outline-secondary">Buscar</button>
+                </div>
             </div>
         </nav>
     </header>
+    <section>
+        <h2>Selección de Carros</h2>
+        <section class="seccion-imagenes">
+            <div class="imagen" style="width: 10rem;">
+                <img id="carro" class="card-img-top-left" src="../img/Audi A3 Sedan 35 TFSI Advanced.jpg" alt="carro">
+                <div class="card-body">
+                <h5 class="card-title">Audi A3 Sedan 35 TFSI Advanced</h5>
+                    <div id="preciorenta">
+                        <p id="preciorenta" class="card-text">$124300 </p>
+                        <a id="preciorenta" href="#" class="btn btn-primary">Rentar</a>
+                    </div>
+                </div>
+            </div>
+    </section>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
