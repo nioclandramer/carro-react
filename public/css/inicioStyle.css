@@ -40,9 +40,13 @@ nav{
 h1{
     padding-left: 20px;
 }
-#h1-header{
-    text-decoration: none;
-    user-select: none;
+#input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    gap: 20px;
 }
 
 

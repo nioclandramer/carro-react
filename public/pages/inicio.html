@@ -19,26 +19,26 @@
     <header>
         <h1>RentaCarro</h1>
         <nav>
-            <div class="row g-2">
-                <div class="col-md">
+            <div id="input" class="row g-2">
+                <div id="input" class="col-md">
                     <div class="form-floating">
-                    <input type="FechaI" class="form-control" id="floatingInputGrid" placeholder="" value="">
-                    <label for="floatingInputGrid">FechaInicio</label>
+                        <label for="floatingInputGrid">FechaInicio</label>
+                        <input type="FechaI" class="form-control" id="input" placeholder="" value="">
                     </div>
                     <div class="form-floating">
-                        <input type="FechaF" class="form-control" id="floatingInputGrid" placeholder="" value="">
                         <label for="floatingInputGrid">FechaFinal</label>
+                        <input type="FechaF" class="form-control" id="input" placeholder="" value="">
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="form-floating">
-                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <label for="floatingSelectGrid">Locación</label>
+                        <select class="form-select" id="input" aria-label="Floating label select example">
                         <option selected>Open this select menu</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
                         </select>
-                    <label for="floatingSelectGrid">Works with selects</label>
                     </div>
                 </div>
             </div>
