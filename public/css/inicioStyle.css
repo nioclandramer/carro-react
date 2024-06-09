@@ -88,7 +88,17 @@ h2{
     gap: 10px;
 }
 
-
+#carrosContainer{
+    background-color: darkgray;
+    width: 240px;
+    height: 200px;
+    display: grid;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+}
 
 
 
