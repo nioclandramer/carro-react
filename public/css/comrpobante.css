@@ -30,3 +30,79 @@ header{
 header h1 {
     margin: 0;
 }
+
+h2{
+    padding: 40px;
+    color: var(--blue);
+    text-align: center;
+}
+
+
+form{
+    width: 450px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color:rgba(215, 65, 65, 0.216);
+    border-radius: 20px;
+    padding: 25px;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+}
+.seccion-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+}
+.imagen {
+    background-color: darkgray;
+    height: 300px;
+    display: grid;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+.imagen img{
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 20px;
+}
+#preciorenta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 100px;
+    gap: 10px;
+}
+
+#txt{
+    margin-left: 100px;
+}
+
+#botonv{
+    margin-left: 108px;
+}
+
+#forma{
+    padding: 20px;
+    display: grid ;
+    flex-direction: column;
+    justify-content: center;
+}
+#imseccion{
+    display: flex;
+    object-fit: cover;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+}
