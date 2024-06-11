@@ -1,24 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
+import React from 'react';
+import { CarroProvider } from '../public/components/CarroProvider.jsx';
 import CarroComponent from '../public/components/carroComponent.jsx';
 import './App.css';
 
-export const carroContext = React.createContext();
 
 function App() {
-  const [carro,setCarro]=useState(null);
 
-  const llenaCarro = ()=> {
-    setCarro({
-      name:''
-    });
-  }
   return (
-    <carroContext.Provider value={carro}>
-      <div>
+    <CarroProvider>
+      <div className='App'>
         <CarroComponent/>
       </div>
-    </carroContext.Provider>
+    </CarroProvider>
   );
 }
 
